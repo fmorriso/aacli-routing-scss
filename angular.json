@@ -48,7 +48,7 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": true,
-			  "commonChunk": true,
+              "commonChunk": true,
               "buildOptimizer": true,
               "budgets": [
                 {
@@ -58,8 +58,8 @@
                 }
               ]
             },
-			"development":{
-			"optimization": false,
+            "development": {
+              "optimization": false,
               "outputHashing": "none",
               "sourceMap": true,
               "extractCss": true,
@@ -68,8 +68,8 @@
               "extractLicenses": true,
               "vendorChunk": true,
               "buildOptimizer": false,
-			  "commonChunk": true
-			}
+              "commonChunk": true
+            }
           }
         },
         "serve": {
@@ -81,9 +81,9 @@
             "production": {
               "browserTarget": "aacli-routing-scss:build:production"
             },
-			"development":{
-			"browserTarget": "aacli-routing-scss:build:development"
-			}
+            "development": {
+              "browserTarget": "aacli-routing-scss:build:development"
+            }
           }
         },
         "extract-i18n": {
