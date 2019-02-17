@@ -1,6 +1,21 @@
-# AacliRoutingScss
+# aaCLIRoutingScss
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+It is designed to support Angular routing, although at present there are no routes defined.
+I have turned on route tracking via Angular's ExtraOptions feature.  
+A snippet of the relevant code is shown below:
+```typescript
+const routes: Routes = [];
+const routeOptions: ExtraOptions = {
+  enableTracing: true
+};
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes, routeOptions)],
+```
+
+It is also designed to use SCSS for styling.
 
 ## Development server
 
