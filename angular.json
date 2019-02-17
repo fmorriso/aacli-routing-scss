@@ -10,7 +10,7 @@
       "prefix": "app",
       "schematics": {
         "@schematics/angular:component": {
-          "styleext": "scss"
+          "style": "scss"
         }
       },
       "architect": {
@@ -29,7 +29,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "es5BrowserSupport": true
           },
           "configurations": {
             "production": {
@@ -46,7 +47,8 @@
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
-              "vendorChunk": false,
+              "vendorChunk": true,
+			  "commonChunk": true,
               "buildOptimizer": true,
               "budgets": [
                 {
@@ -55,7 +57,19 @@
                   "maximumError": "5mb"
                 }
               ]
-            }
+            },
+			"development":{
+			"optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "vendorChunk": true,
+              "buildOptimizer": false,
+			  "commonChunk": true
+			}
           }
         },
         "serve": {
@@ -66,7 +80,10 @@
           "configurations": {
             "production": {
               "browserTarget": "aacli-routing-scss:build:production"
-            }
+            },
+			"development":{
+			"browserTarget": "aacli-routing-scss:build:development"
+			}
           }
         },
         "extract-i18n": {
