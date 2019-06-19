@@ -1,12 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//
+import { CustomMaterialModule } from './shared/custom-material.module';
+import { FlexLayoutModule } from "@angular/flex-layout";
+//
 import { AppRoutingModule } from './app-routing.module';
 //
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { CustomMaterialModule } from './shared/custom-material.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { CustomMaterialModule } from './shared/custom-material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CustomMaterialModule
+    CustomMaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
