@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/aacli-routing-scss",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -56,10 +57,20 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             },
             "development": {
+              "budgets": [
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
+                }
+              ],
               "optimization": false,
               "outputHashing": "none",
               "sourceMap": true,
@@ -154,5 +165,8 @@
       }
     }
   },
-  "defaultProject": "aacli-routing-scss"
+  "defaultProject": "aacli-routing-scss",
+  "cli": {
+    "analytics": false
+  }
 }
