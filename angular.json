@@ -35,6 +35,19 @@
             "es5BrowserSupport": true
           },
           "configurations": {
+            "development": {
+              "optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "extractCss": true,
+              "namedChunks": true,
+              "extractLicenses": true,
+              "vendorChunk": true,
+              "buildOptimizer": false,
+              "commonChunk": true,
+              "progress": true,
+              "watch": true
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -47,11 +60,11 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": true,
               "commonChunk": true,
               "buildOptimizer": true,
+              "progress": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -60,27 +73,10 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb"
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
                 }
               ]
-            },
-            "development": {
-              "budgets": [
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "6kb"
-                }
-              ],
-              "optimization": false,
-              "outputHashing": "none",
-              "sourceMap": true,
-              "extractCss": true,
-              "namedChunks": false,
-              "aot": false,
-              "extractLicenses": true,
-              "vendorChunk": true,
-              "buildOptimizer": false,
-              "commonChunk": true
             }
           }
         },
@@ -90,11 +86,11 @@
             "browserTarget": "aacli-routing-scss:build"
           },
           "configurations": {
-            "production": {
-              "browserTarget": "aacli-routing-scss:build:production"
-            },
             "development": {
               "browserTarget": "aacli-routing-scss:build:development"
+            },
+            "production": {
+              "browserTarget": "aacli-routing-scss:build:production"
             }
           }
         },

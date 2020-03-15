@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open --configuration=development --progress",
-    "start-prod": "ng serve --open --configuration=production --progress",
-    "build": "ng build --configuration=development --progress",
-    "build-prod": "ng build --configuration=production --progress",
+    "start": "ng serve --open --configuration=development",
+    "start-prod": "ng serve --open --configuration=production",
+    "build": "ng build --configuration=development",
+    "build-prod": "ng build --configuration=production",
     "npm-install": "npm install",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "ng lint --project",
     "e2e": "ng e2e"
   },
   "private": true,

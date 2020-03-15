@@ -13,7 +13,7 @@ export class NavigationComponent implements OnInit {
 
   constructor(private router: Router) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     // build the navigation links using the Angular route config that was defined in app-routing.module.ts
     // and dependency-injected into this component, which effectively shares that route information without
     // having to define a separate Angular service component.
