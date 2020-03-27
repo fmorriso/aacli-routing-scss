@@ -5,28 +5,28 @@ import { MaterialVersionInformationService } from '../services/material-version-
 import { FlexLayoutVersionInformationService } from '../services/flex-layout-version-information.service';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+	selector: 'app-about',
+	templateUrl: './about.component.html',
+	styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  constructor(
-    private ngVersionService: AngularVersionInformationService,
-    private matVersionService: MaterialVersionInformationService,
-    private fxLayoutVersionService: FlexLayoutVersionInformationService
-  ) {}
+	constructor(
+		private ngVersionService: AngularVersionInformationService,
+		private matVersionService: MaterialVersionInformationService,
+		private fxLayoutVersionService: FlexLayoutVersionInformationService
+	) {}
 
-  ngOnInit() {}
+	ngOnInit() {}
 
-  public get angularVersion(): string {
-    return this.ngVersionService.version.full;
-  }
+	public get angularVersion(): string {
+		return this.ngVersionService.version.full;
+	}
 
-  public get flexLayoutVersion(): string {
-    return this.fxLayoutVersionService.versionFull;
-  }
+	public get flexLayoutVersion(): string {
+		return this.fxLayoutVersionService.versionFull;
+	}
 
-  public get materialVersion(): string {
-    return this.matVersionService.version.full;
-  }
+	public get materialVersion(): string {
+		return this.matVersionService.version.full;
+	}
 }

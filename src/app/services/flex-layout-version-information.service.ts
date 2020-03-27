@@ -3,20 +3,20 @@ import { Injectable } from '@angular/core';
 import { VERSION } from '@angular/flex-layout';
 
 @Injectable({
-  providedIn: 'root'
+	providedIn: 'root'
 })
 export class FlexLayoutVersionInformationService {
-  constructor() {}
+	constructor() {}
 
-  public get versionFull(): string {
-    if (!VERSION || typeof VERSION === 'undefined') {
-      return 'undefined';
-    } else {
-      return VERSION.full;
-    }
-  }
+	public get versionFull(): string {
+		if (!VERSION || typeof VERSION === 'undefined') {
+			return 'undefined';
+		} else {
+			return VERSION.full;
+		}
+	}
 
-  public get version(): any {
-    return VERSION;
-  }
+	public get version(): any {
+		return VERSION;
+	}
 }

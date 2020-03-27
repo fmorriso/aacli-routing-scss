@@ -1,21 +1,21 @@
 import { Injectable } from '@angular/core';
-import { VERSION  } from '@angular/material/core';
+import { VERSION } from '@angular/material/core';
 
 @Injectable({
-  providedIn: 'root'
+	providedIn: 'root'
 })
 export class MaterialVersionInformationService {
-  public get versionFull(): string {
-    if (!VERSION || typeof VERSION === 'undefined') {
-      return 'undefined';
-    } else {
-      return VERSION.full;
-    }
-  }
+	public get versionFull(): string {
+		if (!VERSION || typeof VERSION === 'undefined') {
+			return 'undefined';
+		} else {
+			return VERSION.full;
+		}
+	}
 
-  public get version(): any {
-    return VERSION;
-  }
+	public get version(): any {
+		return VERSION;
+	}
 
-  constructor() {}
+	constructor() {}
 }
