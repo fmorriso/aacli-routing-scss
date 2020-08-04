@@ -1,15 +1,15 @@
 import { Component, VERSION } from '@angular/core';
 
 @Component({
-	selector: 'app-root',
-	templateUrl: './app.component.html',
-	styleUrls: ['./app.component.scss']
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-	title = 'aacli-routing-scss';
-	angularVersion: string;
+  title = 'aacli-routing-scss';
+  angularVersion: string;
 
-	constructor() {
-		this.angularVersion = VERSION.full;
-	}
+  constructor() {
+    this.angularVersion = VERSION.full;
+  }
 }
