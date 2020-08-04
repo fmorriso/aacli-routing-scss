@@ -15,21 +15,21 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		HomeComponent,
-		AboutComponent,
-		NavigationComponent,
-		PageNotFoundComponent
-	],
-	imports: [
-		BrowserModule,
-		AppRoutingModule,
-		BrowserAnimationsModule,
-		CustomMaterialModule,
-		FlexLayoutModule
-	],
-	providers: [],
-	bootstrap: [AppComponent]
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    NavigationComponent,
+    PageNotFoundComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    CustomMaterialModule,
+    FlexLayoutModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
