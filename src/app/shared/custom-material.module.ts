@@ -14,7 +14,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatIconRegistry } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-import { MAT_LABEL_GLOBAL_OPTIONS } from '@angular/material/core';
+// import { MAT_LABEL_GLOBAL_OPTIONS } from '@angular/material/core';
 import { MatListModule } from '@angular/material/list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatPaginatorModule } from '@angular/material/paginator';
@@ -76,7 +76,7 @@ import { ObserversModule } from '@angular/cdk/observers';
     MatTooltipModule,
     CdkTableModule,
     ObserversModule,
-    PlatformModule
+    PlatformModule,
   ],
   exports: [
     MatAutocompleteModule,
@@ -112,7 +112,7 @@ import { ObserversModule } from '@angular/cdk/observers';
     MatTooltipModule,
     CdkTableModule,
     ObserversModule,
-    PlatformModule
-  ]
+    PlatformModule,
+  ],
 })
 export class CustomMaterialModule {}

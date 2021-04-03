@@ -38,7 +38,6 @@
               "optimization": false,
               "outputHashing": "none",
               "sourceMap": true,
-              "extractCss": true,
               "namedChunks": true,
               "extractLicenses": true,
               "vendorChunk": true,
@@ -57,13 +56,13 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": true,
               "commonChunk": true,
               "buildOptimizer": true,
               "progress": true,
+							"watch": false,
               "budgets": [
                 {
                   "type": "initial",
