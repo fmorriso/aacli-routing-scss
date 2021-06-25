@@ -2,11 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
-It is designed to support Angular routing, although at present there are no routes defined.
-I have turned on route tracking via Angular's ExtraOptions feature.  
+It is designed to support Angular routing, with two sample routes defined plus a page not found (404) handler.
+I have turned on route tracking via Angular's ExtraOptions feature.
 A snippet of the relevant code is shown below:
+
 ```typescript
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'home', component: HomeComponent, data: { label: 'Home' } },
+  { path: 'about', component: AboutComponent, data: { label: 'About' } },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent }
+];
 const routeOptions: ExtraOptions = {
   enableTracing: true
 };
