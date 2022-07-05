@@ -19,10 +19,10 @@ export class NavigationComponent implements OnInit {
     // having to define a separate Angular service component.
     for (const route of this.router.config) {
       // we only care about the ones that have a data.label since the others are not going to be rendered in our navigation bar
-      if (route.data && route.data.label) {
+      if (route.data && route.data['label']) {
         const link: CustomLink = {
           path: `/${route.path}`,
-          label: route.data.label
+          label: route.data['label']
         };
         this.links.push(link);
       }
