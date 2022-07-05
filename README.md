@@ -22,8 +22,10 @@ const routeOptions: ExtraOptions = {
 ```
 
 It is also designed to use SCSS for styling.
+## Change Log
+* 2022-07-05 - upgraded to Angular 14.0.4 with corresponding updates to Angular Material and Angular Flex-Layout.
 ## Known Issues
-* 2022-07-05 - the use of ```enableTracing: true``` seems to have stopped working in Angular 14.0.4 because the console output no longer shows anything happening when going from one route to another.  This was working sometime before that upgrade, but I cannot be certain.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -35,14 +37,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
