@@ -22,7 +22,8 @@ const routeOptions: ExtraOptions = {
 ```
 
 It is also designed to use SCSS for styling.
-
+## Known Issues
+* 2022-07-05 - the use of ```enableTracing: true``` seems to have stopped working in Angular 14.0.4 because the console output no longer shows anything happening when going from one route to another.  This was working sometime before that upgrade, but I cannot be certain.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

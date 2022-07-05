@@ -11,6 +11,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
+
 const routeOptions: ExtraOptions = {
   enableTracing: true
 };
