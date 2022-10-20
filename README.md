@@ -6,7 +6,8 @@ It is designed to support Angular routing, with two sample routes defined plus a
 I have turned on route tracking via Angular's ExtraOptions feature.
 A snippet of the relevant code is shown below:
 ## update history
-* 20220-09-17  updated to Angular 14.2.2
+* 2022-09-17  updated to Angular 14.2.2
+* 2022-10-19  updated to Angular 14.2.7
 ## routies
 ```typescript
 const routes: Routes = [
