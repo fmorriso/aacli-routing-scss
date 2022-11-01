@@ -9,6 +9,7 @@ A snippet of the relevant code is shown below:
 * 2022-07-05 - upgraded to Angular 14.0.4 with corresponding updates to Angular Material and Angular Flex-Layout.
 * 2022-09-17  updated to Angular 14.2.2
 * 2022-10-19  updated to Angular 14.2.7
+* 2022-10-31  updated to Angular 14.2.8
 ## routies
 ```typescript
 const routes: Routes = [
