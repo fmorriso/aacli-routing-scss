@@ -10,6 +10,7 @@ A snippet of the relevant code is shown below:
 * 2022-09-17  updated to Angular 14.2.2
 * 2022-10-19  updated to Angular 14.2.7
 * 2022-10-31  updated to Angular 14.2.8
+* 2022-11-03  updated to Angular 14.2.9
 ## routies
 ```typescript
 const routes: Routes = [
