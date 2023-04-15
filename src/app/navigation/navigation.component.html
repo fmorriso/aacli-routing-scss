@@ -5,7 +5,7 @@
       <!-- NOTE: use of $implicit below causes loop variable link to have a type of CustomLink -->
       <ng-template ngFor let-link="$implicit" [ngForOf]="links">
         <a mat-button
-          [routerLink]="link.path"
+        [ngClass]="'inactive-route'"   [routerLink]="link.path"
           [routerLinkActive]="['mat-button-toggle-checked', 'active-route']"
           #rla="routerLinkActive"
         >

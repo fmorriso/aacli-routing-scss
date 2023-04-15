@@ -11,7 +11,23 @@ A snippet of the relevant code is shown below:
 * 2022-10-19  updated to Angular 14.2.7
 * 2022-10-31  updated to Angular 14.2.8
 * 2022-11-03  updated to Angular 14.2.9
-## routies
+* 2023-04-06  updated to Angular 15.2.5
+* 2023-05-15  updated to Angular 15.2.7
+  * Note: to avoid error TS2322, I had to change the following from this:
+    ```typescript
+    [ngClass]="inactive-route"   [routerLink]="link.path"
+    ```
+    to this:
+    ```typescript
+    [ngClass]="'inactive-route'"   [routerLink]="link.path"
+    ```
+    Notice the extra single quotes
+    
+## @angular/flex-layout DEPRECATION notes
+* [Modern CSS in Angular: Layouts](https://blog.angular.io/modern-css-in-angular-layouts-4a259dca9127)
+* [Flexbox with Angular demo](https://stackblitz.com/edit/angular-cssflex?file=src/main.ts)
+* [CSS Grid with Angular demo](https://stackblitz.com/edit/angular-modern-cssgrid?file=src%2Fmain.ts)
+## routes
 ```typescript
 const routes: Routes = [
   { path: 'home', component: HomeComponent, data: { label: 'Home' } },
