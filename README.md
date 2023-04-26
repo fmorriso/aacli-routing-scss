@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
 
-It is designed to support Angular routing, with two sample routes defined plus a page not found (404) handler.
-I have turned on route tracking via Angular's ExtraOptions feature.
-A snippet of the relevant code is shown below:
+* It is designed to support Angular routing, with two sample routes defined plus a page not found (404) handler.
+* I have turned on route tracking via Angular's ExtraOptions feature.
+* A snippet of the relevant code is shown below:
 ## update history
 * 2022-07-05 - upgraded to Angular 14.0.4 with corresponding updates to Angular Material and Angular Flex-Layout.
 * 2022-09-17  updated to Angular 14.2.2
