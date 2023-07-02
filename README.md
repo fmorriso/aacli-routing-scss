@@ -23,6 +23,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ```
     Notice the extra single quotes
 * 2023-06-13 updated to Angular 16.1
+* 2023-07-01 updated to Angular 16.1.3
     
 ## @angular/flex-layout DEPRECATION notes
 * [Modern CSS in Angular: Layouts](https://blog.angular.io/modern-css-in-angular-layouts-4a259dca9127)
