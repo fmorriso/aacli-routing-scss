@@ -1,9 +1,21 @@
+// Import theming functions
+@use "sass:map";
+//FAILS: @import '~@angular/material/prebuilt-themes';
+@use '@angular/material' as mat;
+@include mat.core();
+// https://indepth.dev/tutorials/angular/angular-material-theming-system-complete-guide
+$color1: #673ab7;
+$color2: #ffd740;
+$color3: rgba(0, 0, 0, 0.38);
+$color4: #f44336;
+//FAILS: $color5: mat-color($primary);
+
 .mat-button {
     color: lightgrey;
 }
 
 .active-route {
-    color: rebeccapurple !important;
+    color: rgb(103, 58, 183) !important; // #673ab7 = $primary
     font-weight: bold;
     background: lightgrey;
 }

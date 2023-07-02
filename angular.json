@@ -41,7 +41,10 @@
             "optimization": false,
             "namedChunks": true,
             "progress": true,
-            "verbose": true
+            "verbose": true,
+            "stylePreprocessorOptions": {
+              "includePaths": ["node_modules"]
+            }
           },
           "configurations": {
             "development": {
