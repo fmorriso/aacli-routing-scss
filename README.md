@@ -21,9 +21,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ```typescript
     [ngClass]="'inactive-route'"   [routerLink]="link.path"
     ```
-    Notice the extra single quotes
+    Notice the extra single quotes inside the double quotes
+
 * 2023-06-13 updated to Angular 16.1
 * 2023-07-01 updated to Angular 16.1.3
+* 2023-08-19 updated to Angular 16.2.1
     
 ## @angular/flex-layout DEPRECATION notes
 * [Modern CSS in Angular: Layouts](https://blog.angular.io/modern-css-in-angular-layouts-4a259dca9127)
