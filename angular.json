@@ -17,12 +17,15 @@
       },
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/aacli-routing-scss",
+            "outputPath": {
+              "base": "dist/aacli-routing-scss"
+            },
             "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": [
+              "src/polyfills.ts"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
@@ -33,10 +36,7 @@
               "src/styles.scss"
             ],
             "scripts": [],
-            "vendorChunk": true,
-            "commonChunk": true,
             "extractLicenses": false,
-            "buildOptimizer": false,
             "sourceMap": true,
             "optimization": false,
             "namedChunks": true,
@@ -44,18 +44,16 @@
             "verbose": true,
             "stylePreprocessorOptions": {
               "includePaths": ["node_modules"]
-            }
+            },
+            "browser": "src/main.ts"
           },
           "configurations": {
             "development": {
               "aot": false,
-              "buildOptimizer": false,
               "optimization": false,
-              "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true,
-              "commonChunk": true,
               "progress": true,
               "verbose": true,
               "watch": false
@@ -72,9 +70,6 @@
               "sourceMap": false,
               "namedChunks": false,
               "extractLicenses": true,
-              "commonChunk": true,
-              "vendorChunk": true,
-              "buildOptimizer": true,
               "progress": true,
               "verbose": true,
               "watch": false,
@@ -96,21 +91,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "aacli-routing-scss:build"
+            "buildTarget": "aacli-routing-scss:build"
           },
           "configurations": {
             "development": {
-              "browserTarget": "aacli-routing-scss:build:development"
+              "buildTarget": "aacli-routing-scss:build:development"
             },
             "production": {
-              "browserTarget": "aacli-routing-scss:build:production"
+              "buildTarget": "aacli-routing-scss:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "aacli-routing-scss:build"
+            "buildTarget": "aacli-routing-scss:build"
           }
         },
         "test": {
