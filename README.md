@@ -50,6 +50,24 @@ const routeOptions: ExtraOptions = {
 
 It is also designed to use SCSS for styling.
 
+## Tools Used
+
+| Tool             |  Version |
+|:-----------------|---------:|
+| @Angular/CLI     |  18.2.11 |
+| Angular          |  18.2.11 |
+| Angular/Material |  18.2.13 |
+| WebStorm         | 2024.3.0 |
+| VSCode           |   1.95.2 |
+
+## Change History
+
+| Date       | Description                          |
+|:-----------|:-------------------------------------|
+| 2024-11-10 | Initial creation                     |
+| 2024-11-13 | Verify code runs in PyCharm 2024.3.0 |
+
+
 ## Known Issues
 
 ## Development server
