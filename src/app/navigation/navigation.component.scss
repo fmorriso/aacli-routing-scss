@@ -2,7 +2,8 @@
 @use 'sass:map';
 //FAILS: @import '@angular/material/prebuilt-themes';
 @use '@angular/material' as mat;
-@include mat.core();
+@include mat.elevation-classes();
+@include mat.app-background();
 
 $background-color-active-route: #673ab7; // TODO: use $something from @angular/material "current" theme
 
