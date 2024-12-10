@@ -68,7 +68,7 @@ It is also designed to use SCSS for styling.
 | 2024-11-13 | Verify code runs in PyCharm 2024.3.0                                                      |
 | 2024-11-30 | Upgrade to Angular 19 and Angular/Material 19                                             |
 | 2024-12-09 | Upgrade to Angular 19.0.3  and Angular/Material 19.0.2                                    |
- | 2024-12-10 | Convert from custom data dictionary to built-in title attribute for navigation bar labels |
+| 2024-12-10 | Convert from custom data dictionary to built-in title attribute for navigation bar labels |
 
 
 ## Known Issues
