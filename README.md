@@ -54,19 +54,20 @@ It is also designed to use SCSS for styling.
 
 | Tool             |  Version |
 |:-----------------|---------:|
-| @Angular/CLI     |  19.0.12 |
-| Angular          |   19.0.1 |
+| @Angular/CLI     |   19.0.4 |
+| Angular          |   19.0.3 |
 | Angular/Material |   19.0.2 |
 | WebStorm         | 2024.3.0 |
 | VSCode           |   1.95.3 |
 
 ## Change History
 
-| Date       | Description                                   |
-|:-----------|:----------------------------------------------|
-| 2024-11-10 | Initial creation                              |
-| 2024-11-13 | Verify code runs in PyCharm 2024.3.0          |
-| 2024-11-30 | Upgrade to Angular 19 and Angular/Material 19 |
+| Date       | Description                                            |
+|:-----------|:-------------------------------------------------------|
+| 2024-11-10 | Initial creation                                       |
+| 2024-11-13 | Verify code runs in PyCharm 2024.3.0                   |
+| 2024-11-30 | Upgrade to Angular 19 and Angular/Material 19          |
+| 2024-12-09 | Upgrade to Angular 19.0.3  and Angular/Material 19.0.2 |
 
 
 ## Known Issues
