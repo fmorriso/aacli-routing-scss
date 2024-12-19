@@ -52,13 +52,13 @@ It is also designed to use SCSS for styling.
 
 ## Tools Used
 
-| Tool             |  Version |
-|:-----------------|---------:|
-| @Angular/CLI     |   19.0.4 |
-| Angular          |   19.0.3 |
-| Angular/Material |   19.0.2 |
-| WebStorm         | 2024.3.0 |
-| VSCode           |   1.95.3 |
+| Tool             |    Version |
+|:-----------------|-----------:|
+| @Angular/CLI     |     19.0.6 |
+| Angular          |     19.0.5 |
+| Angular/Material |     19.0.4 |
+| WebStorm         | 2024.3.1.1 |
+| VSCode           |     1.95.3 |
 
 ## Change History
 
