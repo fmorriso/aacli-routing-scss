@@ -44,9 +44,9 @@ It is also designed to use SCSS for styling.
 
 | Tool             |  Version |
 |:-----------------|---------:|
-| @Angular/CLI     |   19.0.6 |
-| Angular          |   19.0.5 |
-| Angular/Material |   19.0.4 |
+| @Angular/CLI     |   19.1.2 |
+| Angular          |   19.1.1 |
+| Angular/Material |   19.1.0 |
 | WebStorm         | 2024.3.2 |
 | VSCode           |   1.95.3 |
 
