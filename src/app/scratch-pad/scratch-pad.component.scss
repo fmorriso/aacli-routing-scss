@@ -9,3 +9,37 @@ p {
 #title {
     color: blue;
 }
+
+.table-border-1 {
+    border: 0.24rem solid red;
+
+}
+$border-width: 0.4rem;
+$border-thin-table: $border-width solid pink;
+$border-thin-th: $border-width/2 solid green;
+$border-thin-tr: $border-width/6 solid blue;
+$border-thin-td: $border-width/8 solid orange;
+table {
+    border-top: $border-thin-table;
+    border-bottom: $border-thin-table;
+    border-left: $border-thin-table;
+    border-right: $border-thin-table;
+    th {
+        border-top: $border-thin-th;
+        border-bottom: $border-thin-th;
+        border-left: $border-thin-th;
+        border-right: $border-thin-th;
+    }
+    tr {
+        border-top: $border-thin-tr;
+        border-bottom: $border-thin-tr;
+        border-left: $border-thin-tr;
+        border-right: $border-thin-tr;
+    }
+    td {
+        border-top: $border-thin-td;
+        border-bottom: $border-thin-td;
+        border-left: $border-thin-td;
+        border-right: $border-thin-td;
+    }
+}
