@@ -48,7 +48,7 @@ It is also designed to use SCSS for styling.
 | Angular          |   19.1.1 |
 | Angular/Material |   19.1.0 |
 | WebStorm         | 2024.3.2 |
-| VSCode           |   1.95.3 |
+| VSCode           |   1.96.3 |
 
 ## Change History
 
