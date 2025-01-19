@@ -16,26 +16,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     ```
     Notice the extra single quotes inside the double quotes
 
-
     
 ## @angular/flex-layout DEPRECATION notes
 * [Modern CSS in Angular: Layouts](https://blog.angular.io/modern-css-in-angular-layouts-4a259dca9127)
 * [Flexbox with Angular demo](https://stackblitz.com/edit/angular-cssflex?file=src/main.ts)
 * [CSS Grid with Angular demo](https://stackblitz.com/edit/angular-modern-cssgrid?file=src%2Fmain.ts)
 ## routes
+
 ```typescript
 const routes: Routes = [
-  { path: 'home', component: HomeComponent, data: { label: 'Home' } },
-  { path: 'about', component: AboutComponent, data: { label: 'About' } },
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: '**', component: PageNotFoundComponent }
+    {path: 'home', component: HomeComponent, title: 'Home'},
+    {path: 'about', component: AboutComponent, title: 'About'},
+    {path: '', redirectTo: 'home', pathMatch: 'full'},
+    {path: '**', component: PageNotFoundComponent}
 ];
 const routeOptions: ExtraOptions = {
-  enableTracing: true
+    enableTracing: true
 };
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, routeOptions)],
+    imports: [RouterModule.forRoot(routes, routeOptions)],
 ```
 
 It is also designed to use SCSS for styling.
@@ -69,7 +69,7 @@ It is also designed to use SCSS for styling.
 | 2024-11-13 | Verify code runs in WebStorm 2024.3.0                                                              |
 | 2024-11-30 | Upgrade to Angular 19 and Angular/Material 19                                                      |
 | 2024-12-09 | Upgrade to Angular 19.0.3  and Angular/Material 19.0.2                                             |
-| 2024-12-10 | Convert from custom data dictionary to built-in title attribute for navigation bar labels          |
+| 2024-12-10 | Convert from custom title dictionary to built-in title attribute for navigation bar labels          |
 | 2024-12-19 | Upgrade to latest Angular, Angular/Material                                                        |
 | 2025-01-19 | Upgrade to latest Angular 19.1, Angular/Material 19.1                                              |
 
