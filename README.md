@@ -44,11 +44,11 @@ It is also designed to use SCSS for styling.
 
 | Tool             |  Version |
 |:-----------------|---------:|
-| @Angular/CLI     |   19.1.2 |
-| Angular          |   19.1.1 |
-| Angular/Material |   19.1.0 |
+| @Angular/CLI     |   19.1.4 |
+| Angular          |   19.1.3 |
+| Angular/Material |   19.1.1 |
 | WebStorm         | 2024.3.2 |
-| VSCode           |   1.96.3 |
+| VSCode           |   1.96.4 |
 
 ## Change History
 
@@ -69,9 +69,10 @@ It is also designed to use SCSS for styling.
 | 2024-11-13 | Verify code runs in WebStorm 2024.3.0                                                              |
 | 2024-11-30 | Upgrade to Angular 19 and Angular/Material 19                                                      |
 | 2024-12-09 | Upgrade to Angular 19.0.3  and Angular/Material 19.0.2                                             |
-| 2024-12-10 | Convert from custom title dictionary to built-in title attribute for navigation bar labels          |
+| 2024-12-10 | Convert from custom title dictionary to built-in title attribute for navigation bar labels         |
 | 2024-12-19 | Upgrade to latest Angular, Angular/Material                                                        |
 | 2025-01-19 | Upgrade to latest Angular 19.1, Angular/Material 19.1                                              |
+| 2025-01-28 | Upgrade to latest Angular 19.1.4, Angular 19.1.3, Angular/Material 19.1.1                          |
 
 
 ## Known Issues
