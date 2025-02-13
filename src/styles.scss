@@ -12,4 +12,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     place-items: center;
 }
 
+.center-both-directions {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
