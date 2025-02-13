@@ -1,3 +1,4 @@
+@use 'sass:math';
 p {
     color: green;
 }
@@ -16,9 +17,9 @@ p {
 }
 $border-width: 0.4rem;
 $border-thin-table: $border-width solid pink;
-$border-thin-th: $border-width/2 solid green;
-$border-thin-tr: $border-width/6 solid blue;
-$border-thin-td: $border-width/8 solid orange;
+$border-thin-th: math.div($border-width, 2) solid green;
+$border-thin-tr: math.div($border-width, 6) solid blue;
+$border-thin-td: math.div($border-width, 8) solid orange;
 table {
     border-top: $border-thin-table;
     border-bottom: $border-thin-table;
