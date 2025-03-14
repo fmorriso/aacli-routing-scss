@@ -80,7 +80,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## routes
 
-```typescript
+```angular
 const routes: Routes = [
     {path: 'home', component: HomeComponent, title: 'Home'},
     {path: 'about', component: AboutComponent, title: 'About'},
@@ -92,7 +92,7 @@ const routeOptions: ExtraOptions = {
 };
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes, routeOptions)],
+    imports: [RouterModule.forRoot(routes, routeOptions)]
 ```
 
 It is also designed to use SCSS for styling.
